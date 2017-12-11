@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+  <ImageView
+      android:id="@+id/route_logo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:src="@mipmap/ic_launcher"
+      tools:ignore="ContentDescription"
+      />
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+
+    <TextView
+        android:id="@+id/route_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="25"
+        android:textSize="18sp"
+        tools:text="My Nemesis (Lorem Ipsum Lorem Ipsum"
+        />
+
+    <TextView
+        android:id="@+id/route_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:maxLength="10"
+        android:textSize="18sp"
+        tools:text="blue"
+        />
+  </RelativeLayout>
+
+  <TextView
+      android:id="@+id/route_description"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical"
+      android:layout_marginTop="8dp"
+      android:maxLength="140"
+      android:textSize="14sp"
+      tools:text="3rd hall first wall right sight, blue rating white boulders - hint: I destroyed my pants"
+      />
+
+</LinearLayout>
