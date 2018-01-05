@@ -15,7 +15,7 @@ class RouteListAdapter: RecyclerView.Adapter<RouteListAdapter.ViewHolder>() {
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RouteListAdapter.ViewHolder {
     val itemView = LayoutInflater.from(parent.context).inflate(
-        R.layout.item_place, parent,
+        R.layout.item_route, parent,
         false)
     return ViewHolder(itemView)
   }
