@@ -1,4 +1,4 @@
-package eu.quiqua.allezapp.route
+package eu.quiqua.allezapp.route_list
 
 import android.graphics.drawable.Drawable
 

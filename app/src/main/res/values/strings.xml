@@ -1,3 +1,4 @@
 <resources>
-  <string name="app_name">Allezapp</string>
+    <string name="app_name">Allezapp</string>
+    <string name="title_activity_route_detail">RouteDetailActivity</string>
 </resources>
